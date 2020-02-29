@@ -1,6 +1,7 @@
 package com.github.tcoolg10.sidmod.client;
 
 import com.github.tcoolg10.sidmod.SidMod;
+import com.github.tcoolg10.sidmod.client.render.entity.JayceRenderer;
 import com.github.tcoolg10.sidmod.client.render.entity.SidRenderer;
 import com.github.tcoolg10.sidmod.init.ModEntityTypes;
 import net.minecraftforge.api.distmarker.Dist;
@@ -19,6 +20,7 @@ public final class ClientModEventSubscriber {
     @SubscribeEvent
     public static void onFMLClientSetupEvent(final FMLClientSetupEvent event) {
         RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.SID.get(), SidRenderer::new);
+        RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.JAYCE.get(), JayceRenderer::new);
     }
 
 }

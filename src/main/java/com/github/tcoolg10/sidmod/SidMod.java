@@ -10,6 +10,10 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+/**
+ * @author Grihith Manchanda
+ * @version 1.0
+ */
 @Mod(SidMod.MODID)
 public final class SidMod {
 

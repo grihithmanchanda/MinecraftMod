@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EBE",
+    "GLG",
+    "ANA"
+  ],
+  "key": {
+    "E": {
+      "item": "sidmod:eyebrow"
+    },
+    "B": {
+      "item": "minecraft:dead_brain_coral_block"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "L": {
+      "item": "sidmod:glasses"
+    },
+    "A": {
+      "item": "minecraft:apple"
+    },
+    "N": {
+      "item": "sidmod:nose"
+    }
+  },
+  "result": {
+    "item": "sidmod:jayce_spawn"
+  }
+}

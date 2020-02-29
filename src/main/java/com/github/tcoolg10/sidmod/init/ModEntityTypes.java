@@ -3,6 +3,7 @@ package com.github.tcoolg10.sidmod.init;
 import com.github.tcoolg10.sidmod.SidMod;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntityType;
+import net.minecraft.entity.monster.EndermanEntity;
 import net.minecraft.entity.passive.PandaEntity;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.RegistryObject;
@@ -15,8 +16,15 @@ public final class ModEntityTypes {
 
     public static final String SID_NAME = "sid";
     public static final RegistryObject<EntityType<PandaEntity>> SID = ENTITY_TYPES.register(SID_NAME, () ->
-            EntityType.Builder.<PandaEntity>create(PandaEntity::new, EntityClassification.CREATURE)
-    .size(EntityType.PANDA.getWidth(), EntityType.PANDA.getHeight())
-    .build(new ResourceLocation(SidMod.MODID, SID_NAME).toString())
-    );
+            EntityType.Builder.create(PandaEntity::new, EntityClassification.CREATURE)
+            .size(EntityType.PANDA.getWidth(), EntityType.PANDA.getHeight())
+            .build(new ResourceLocation(SidMod.MODID, SID_NAME).toString())
+            );
+
+    public static final String JAYCE_NAME = "jayce";
+    public static final RegistryObject<EntityType<EndermanEntity>> JAYCE = ENTITY_TYPES.register(JAYCE_NAME, () ->
+            EntityType.Builder.create(EndermanEntity::new, EntityClassification.CREATURE)
+            .size(EntityType.ENDERMAN.getWidth(), EntityType.ENDERMAN.getHeight())
+            .build(new ResourceLocation(SidMod.MODID, JAYCE_NAME).toString())
+            );
 }
