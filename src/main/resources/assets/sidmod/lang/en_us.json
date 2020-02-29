@@ -1,0 +1,9 @@
+{
+  "block.sidmod.sid_ore": "Sid Ore",
+  "entity.sidmod.sid": "Sid",
+  "item.sidmod.duct_tape": "Duct Tape",
+  "item.sidmod.glasses": "Glasses",
+  "item.sidmod.sid_chunk": "Sid Chunk",
+  "item.sidmod.sid_spawn": "Sid Spawn Egg",
+  "itemGroup.sidmod": "Sid Mod"
+}
