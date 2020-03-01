@@ -17,6 +17,7 @@ public class ModItems {
     public static final Item eyebrow = new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP));
     public static final Item nose = new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP));
     public static final ModdedSpawnEggItem jayce_spawn = new ModdedSpawnEggItem(ModEntityTypes.JAYCE, 0xF0A5A2, 0xA96728, new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP));
+    public static final Item hair_gel = new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP));
 
     public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, SidMod.MODID);
 
@@ -27,5 +28,6 @@ public class ModItems {
     public static final RegistryObject<Item> EYEBROW = ITEMS.register("eyebrow", () -> eyebrow);
     public static final RegistryObject<Item> NOSE = ITEMS.register("nose", () -> nose);
     public static final RegistryObject<ModdedSpawnEggItem> JAYCE_SPAWN = ITEMS.register("jayce_spawn", () -> jayce_spawn);
+    public static final RegistryObject<Item> HAIR_GEL = ITEMS.register("hair_gel", () -> hair_gel);
 
 }

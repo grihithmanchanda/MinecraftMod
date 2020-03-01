@@ -2,11 +2,12 @@
   "block.sidmod.sid_ore": "Sid Ore",
   "entity.sidmod.sid": "Sid",
   "item.sidmod.duct_tape": "Duct Tape",
-  "item.sidmod.glasses": "Glasses",
-  "item.sidmod.sid_chunk": "Sid Chunk",
-  "item.sidmod.sid_spawn": "Spawn Sid Egg",
-  "itemGroup.sidmod": "Sid Mod",
   "item.sidmod.eyebrow": "Eyebrow",
+  "item.sidmod.glasses": "Glasses",
+  "item.sidmod.hair_gel": "Hair Gel",
+  "item.sidmod.jayce_spawn": "Jayce Spawn Egg",
   "item.sidmod.nose": "Nose",
-  "item.sidmod.jayce_spawn": "Spawn Jayce Egg"
+  "item.sidmod.sid_chunk": "Sid Chunk",
+  "item.sidmod.sid_spawn": "Sid Spawn Egg",
+  "itemGroup.sidmod": "Sid Mod"
 }

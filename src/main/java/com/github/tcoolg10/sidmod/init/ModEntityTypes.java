@@ -3,7 +3,7 @@ package com.github.tcoolg10.sidmod.init;
 import com.github.tcoolg10.sidmod.SidMod;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntityType;
-import net.minecraft.entity.monster.EndermanEntity;
+import net.minecraft.entity.passive.IronGolemEntity;
 import net.minecraft.entity.passive.PandaEntity;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.RegistryObject;
@@ -22,8 +22,8 @@ public final class ModEntityTypes {
             );
 
     public static final String JAYCE_NAME = "jayce";
-    public static final RegistryObject<EntityType<EndermanEntity>> JAYCE = ENTITY_TYPES.register(JAYCE_NAME, () ->
-            EntityType.Builder.create(EndermanEntity::new, EntityClassification.CREATURE)
+    public static final RegistryObject<EntityType<IronGolemEntity>> JAYCE = ENTITY_TYPES.register(JAYCE_NAME, () ->
+            EntityType.Builder.create(IronGolemEntity::new, EntityClassification.CREATURE)
             .size(EntityType.ENDERMAN.getWidth(), EntityType.ENDERMAN.getHeight())
             .build(new ResourceLocation(SidMod.MODID, JAYCE_NAME).toString())
             );
